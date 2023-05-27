@@ -1,0 +1,1 @@
+# Hikikomori_Shop_WEB_Project
