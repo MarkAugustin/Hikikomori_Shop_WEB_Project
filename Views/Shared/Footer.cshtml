@@ -1,0 +1,57 @@
+﻿<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <a asp-action="Index" asp-controller="Home"><img src="img/logotype.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li class="active"><a asp-action="Index" asp-controller="Home">Homepage</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        min-height: calc(100% - 100px); /* высота header + footer */
+        margin-bottom: -50px; /* высота footer */
+    }
+    
+    header {
+        height: 50px; /* задаем высоту header */
+        background-color: #ccc;
+    }
+    
+    footer {
+        height: 50px; /* задаем высоту footer */
+        background-color: #ccc;
+        position: relative;
+        margin-top: -50px; /* высота footer */
+        clear:both;
+    }
+    
+    /* пример использования класса для содержимого */
+    .content p {
+        margin-bottom: 20px;
+    }
+</style>
