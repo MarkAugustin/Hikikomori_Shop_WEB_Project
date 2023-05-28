@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop", "HikikomoriShop.csproj", "{01DA5FA5-553D-45A1-A23A-C45CDAB7C56D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.UI", "HikikomoriShop.UI\HikikomoriShop.UI.csproj", "{74681B82-C965-401B-9B15-1A9413C645CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Domain", "HikikomoriShop.Domain\HikikomoriShop.Domain.csproj", "{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Application", "HikikomoriShop.Application\HikikomoriShop.Application.csproj", "{6155A948-DE33-49FF-945C-0B49513C2852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Infrastructure", "HikikomoriShop.Infrastructure\HikikomoriShop.Infrastructure.csproj", "{3EAEBE26-6981-4F83-A621-05041403E7A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01DA5FA5-553D-45A1-A23A-C45CDAB7C56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01DA5FA5-553D-45A1-A23A-C45CDAB7C56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01DA5FA5-553D-45A1-A23A-C45CDAB7C56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01DA5FA5-553D-45A1-A23A-C45CDAB7C56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74681B82-C965-401B-9B15-1A9413C645CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74681B82-C965-401B-9B15-1A9413C645CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74681B82-C965-401B-9B15-1A9413C645CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74681B82-C965-401B-9B15-1A9413C645CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6155A948-DE33-49FF-945C-0B49513C2852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6155A948-DE33-49FF-945C-0B49513C2852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6155A948-DE33-49FF-945C-0B49513C2852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6155A948-DE33-49FF-945C-0B49513C2852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
