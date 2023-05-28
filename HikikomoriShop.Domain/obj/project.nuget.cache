@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r+B9elgXK79444XJgiaSPXIjx7jZwgvMboQFGkD+n2DAC4rBzTXe8SQ9w8h0Iy83PCjAKQoc7GggTMvlwleIkA==",
+  "dgSpecHash": "hdpgeJIw/f4GDHEeXzCVO5B6C3hv5ulzaJ94uu92KbbXiMSP5TnC5Ch5zV4lR1ekAs66jcQgjGgWU7u9HkbwVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\GIT\\HikikomoriShop\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
