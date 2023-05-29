@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\ART\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
       "projectName": "HikikomoriShop.Domain",
-      "projectPath": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\ART\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.Domain\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\ART\\HikikomoriShop.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
