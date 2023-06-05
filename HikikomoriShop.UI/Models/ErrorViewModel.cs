@@ -1,4 +1,4 @@
-namespace HikikomoriShop.Models;
+namespace HikikomoriShop.UI.Models;
 
 public class ErrorViewModel
 {
