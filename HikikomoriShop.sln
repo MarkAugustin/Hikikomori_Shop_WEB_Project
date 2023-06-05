@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.UI", "HikikomoriShop.UI\HikikomoriShop.UI.csproj", "{74681B82-C965-401B-9B15-1A9413C645CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.UI", "HikikomoriShop.UI\HikikomoriShop.UI.csproj", "{56E492B5-9A68-4F2A-9F3B-4950E8AE11E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Domain", "HikikomoriShop.Domain\HikikomoriShop.Domain.csproj", "{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Domain", "HikikomoriShop.Domain\HikikomoriShop.Domain.csproj", "{8AD281CB-CBDF-48BD-9417-322E556A877F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Application", "HikikomoriShop.Application\HikikomoriShop.Application.csproj", "{6155A948-DE33-49FF-945C-0B49513C2852}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Application", "HikikomoriShop.Application\HikikomoriShop.Application.csproj", "{90AF2080-1AA0-427D-A6D0-0E8A90E78A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Infrastructure", "HikikomoriShop.Infrastructure\HikikomoriShop.Infrastructure.csproj", "{3EAEBE26-6981-4F83-A621-05041403E7A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikikomoriShop.Infrastructure", "HikikomoriShop.Infrastructure\HikikomoriShop.Infrastructure.csproj", "{FA7639F4-4470-40DB-83CA-E8E42D257A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74681B82-C965-401B-9B15-1A9413C645CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74681B82-C965-401B-9B15-1A9413C645CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74681B82-C965-401B-9B15-1A9413C645CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74681B82-C965-401B-9B15-1A9413C645CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{651C89E0-AB8F-4EEE-8FFC-C49C9569329D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6155A948-DE33-49FF-945C-0B49513C2852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6155A948-DE33-49FF-945C-0B49513C2852}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6155A948-DE33-49FF-945C-0B49513C2852}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6155A948-DE33-49FF-945C-0B49513C2852}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EAEBE26-6981-4F83-A621-05041403E7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E492B5-9A68-4F2A-9F3B-4950E8AE11E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E492B5-9A68-4F2A-9F3B-4950E8AE11E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E492B5-9A68-4F2A-9F3B-4950E8AE11E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E492B5-9A68-4F2A-9F3B-4950E8AE11E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD281CB-CBDF-48BD-9417-322E556A877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD281CB-CBDF-48BD-9417-322E556A877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD281CB-CBDF-48BD-9417-322E556A877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD281CB-CBDF-48BD-9417-322E556A877F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AF2080-1AA0-427D-A6D0-0E8A90E78A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AF2080-1AA0-427D-A6D0-0E8A90E78A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AF2080-1AA0-427D-A6D0-0E8A90E78A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AF2080-1AA0-427D-A6D0-0E8A90E78A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7639F4-4470-40DB-83CA-E8E42D257A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7639F4-4470-40DB-83CA-E8E42D257A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7639F4-4470-40DB-83CA-E8E42D257A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7639F4-4470-40DB-83CA-E8E42D257A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
