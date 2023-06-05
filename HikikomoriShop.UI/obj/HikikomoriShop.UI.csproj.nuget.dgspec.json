@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj": {
+    "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\HikikomoriShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj",
-        "projectName": "HikikomoriShop.UI",
-        "projectPath": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\HikikomoriShop.Application.csproj",
+        "projectName": "HikikomoriShop.Application",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\HikikomoriShop.Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\DIV\\HikikomoriShop.UI\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
+        "projectName": "HikikomoriShop.Domain",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +108,157 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj",
+        "projectName": "HikikomoriShop.Infrastructure",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Domain\\HikikomoriShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj",
+        "projectName": "HikikomoriShop.UI",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.UI\\HikikomoriShop.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\HikikomoriShop.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Application\\HikikomoriShop.Application.csproj"
+              },
+              "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Hikikomori_Shop_WEB_Project\\HikikomoriShop.Infrastructure\\HikikomoriShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
