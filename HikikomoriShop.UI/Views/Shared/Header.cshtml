@@ -17,12 +17,12 @@
                                 <a asp-action="Index" asp-controller="Home">Homepage</a>
                             </li>
                             <li>
-                                <a asp-area="" asp-controller="" asp-action="Index">Categories <span class="arrow_carrot-down"></span></a>
+                                <a asp-area="" asp-controller="Category" asp-action="Index">Categories <span class="arrow_carrot-down"></span></a>
                                 <ul class="dropdown">
                                     @if (User.IsInRole("Admin") || User.IsInRole("User"))
                                     {
                                         <li>
-                                            <a asp-area="" asp-controller="" asp-action="Index">Product Details</a>
+                                            <a asp-area="" asp-controller="Details" asp-action="Index">Product Details</a>
                                         </li>
                                     }    
                                     <li>
@@ -52,7 +52,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a asp-area="" asp-controller="" asp-action="Index">Our Blog</a>
+                                <a asp-area="" asp-controller="Blog" asp-action="Index">Our Blog</a>
                             </li>
                             <li>
                                 <a href="#">Contacts</a>
