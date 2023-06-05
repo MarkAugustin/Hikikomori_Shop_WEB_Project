@@ -1,0 +1,70 @@
+﻿@model List<HikikomoriShop.Domain.User>
+
+@{
+    ViewBag.Title = "Accounts List";
+    Layout = "_Layout";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Accounts List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Account" asp-action="Create" class="btn btn-primary"> <i class="bi bi-file-earmark-plus-fill"></i> Add new user</a>
+        </div>
+        <br/>
+    </div>
+
+    <table class="table table-bordered table-striped" style="width: 100%; margin-top: 20px">
+        <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                User Email
+            </th>
+            <th>
+                User Role
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td style="color: white;">
+                    @obj.Id
+                </td>
+                <td style="color: white;">
+                    @obj.Email
+                </td>
+                <td style="color: white;">
+                    @obj.Role.Name
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Account" asp-action="Delete" asp-route-id="@obj.Id"
+                           class="btn btn-danger mx-1 m-1">
+                            <i class="bi bi-trash-fill"></i> Delete
+                        </a>
+                        
+                        <a asp-controller="Account" asp-action="Update" asp-route-id="@obj.Id"
+                           class="btn btn-info mx-1 m-1">
+                            <i class="bi bi-trash-fill"></i> Update
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table {
+        color: white;
+        margin: 10% 0 0 0;
+    }
+</style>

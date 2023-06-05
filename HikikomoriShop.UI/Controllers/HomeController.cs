@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using HikikomoriShop.Models;
+using HikikomoriShop.UI.Models;
 
-namespace HikikomoriShop.Controllers;
+namespace HikikomoriShop.UI.Controllers;
 
 public class HomeController : Controller
 {

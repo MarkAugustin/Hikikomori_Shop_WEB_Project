@@ -17,11 +17,14 @@
                                 <a asp-action="Index" asp-controller="Home">Homepage</a>
                             </li>
                             <li>
-                                <a href="#">Categories <span class="arrow_carrot-down"></span></a>
+                                <a asp-area="" asp-controller="" asp-action="Index">Categories <span class="arrow_carrot-down"></span></a>
                                 <ul class="dropdown">
-                                    <li>
-                                        <a href="#">Product Details</a>
-                                    </li>
+                                    @if (User.IsInRole("Admin") || User.IsInRole("User"))
+                                    {
+                                        <li>
+                                            <a asp-area="" asp-controller="" asp-action="Index">Product Details</a>
+                                        </li>
+                                    }    
                                     <li>
                                         <a href="#">Toys</a>
                                     </li>
@@ -37,23 +40,34 @@
                                     <li>
                                         <a href="#">Others</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Manage products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Accounts list</a>
-                                    </li>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li>
+                                            <a asp-area="" asp-controller="Product" asp-action="Index">Manage products</a>
+                                        </li>
+                                        <li>
+                                            <a asp-area="" asp-controller="Account" asp-action="Index">Accounts list</a>
+                                        </li>
+                                    }
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Our Blog</a>
+                                <a asp-area="" asp-controller="" asp-action="Index">Our Blog</a>
                             </li>
                             <li>
                                 <a href="#">Contacts</a>
                             </li>
-                            <li>
-                                <a href="#">Log in</a>
-                            </li>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li>
+                                    <a asp-controller="AccountSession" asp-action="Logout">Logout</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a asp-controller="AccountSession" asp-action="Login">Log in</a>
+                                </li>
                             }
                         </ul>
                     </nav>
@@ -64,6 +78,12 @@
                     <a href="#" class="search-switch">
                         <span class="icon_search"></span>
                     </a>
+                    @if (User.IsInRole("Admin") || User.IsInRole("User"))
+                    {
+                        <a href="Cart" class="cart-switch">
+                            <span class="icon_cart_alt"></span>
+                        </a>
+                    }    
                 </div>
             </div>
         </div>
