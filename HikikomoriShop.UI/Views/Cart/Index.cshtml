@@ -1,0 +1,77 @@
+﻿@model System.Collections.Generic.IEnumerable<HikikomoriShop.Domain.Entities.Product>
+
+@{
+    ViewBag.Title = "Cart";
+    Layout = "_Layout";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Your cart</h2>
+        </div>
+        <br/>
+    </div>
+
+    <table class="table table-bordered table-striped" style="width: 100%; margin-top: 20px">
+        <thead>
+        <tr>
+            <th style="font-size:20px;">
+                Image
+            </th>
+            <th style="font-size:20px;">
+                Product name
+            </th>
+            <th style="font-size:20px;">
+                Category
+            </th>
+            <th style="font-size:20px;">
+                Price
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="color: white; text-align: center; vertical-align: middle;"><img src="img/trending/trend-2.jpg" width="150" height="150" alt="">
+            </td>
+            <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;" > Savage Slayer: Chainsaw Man Tribute Tee
+            </td>
+            <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;">T-Shirt
+            </td>
+            <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;">19,99$
+            </td>
+            <td style="color: white; text-align: left; vertical-align: middle;">
+                <div class="w-75 btn-group" role="group">
+                    <a href="#" class="btn btn-danger mx-1 m-1">
+                        <i class="bi bi-trash-fill"></i> Delete
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+                    <td style="color: white; text-align: center; vertical-align: middle;"><img src="img/trending/trend-5.jpg" width="150" height="150" alt="">
+                    </td>
+                    <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;"> Shiratorizawa Gakuen Koukou
+                    </td>
+                    <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;"> Backpack
+                    </td>
+                    <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;">55,99$
+                    </td>
+                    <td style="font-size:20px; color: white; text-align: left; vertical-align: middle;">
+                        <div class="w-75 btn-group" role="group">
+                            <a href="#" class="btn btn-danger mx-1 m-1">
+                                <i class="bi bi-trash-fill"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table {
+        color: white;
+        margin: 10% 0 0 0;
+    }
+</style>
